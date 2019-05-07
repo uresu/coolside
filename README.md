@@ -1,2 +1,2 @@
 # coolside
-mobile ghost hunting in newark lol
+so basically we're gonna hunt ghosts and be cool
