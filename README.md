@@ -1,4 +1,10 @@
-# coolside
-so basically we're gonna hunt ghosts and be cool
-ehehehehehehe I am cool and god lol
-oo eee oo aa aa ting tang walla walla bing bang uwu
+TODO
+
+Start Game
+Get GPS Coords
+Determine next waypoint
+Turn dial to next waypoint
+?At waypoint?
+Y -
+Read RFID
+Generate next steps
