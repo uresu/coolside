@@ -2,12 +2,7 @@ import RPi.GPIO as GPIO
 from gpiozero import Buzzer
 import time
 Buzzer = Buzzer(17)
-while True:
-  x = 0
-  a = int(input("Number of flashes: "))
-  b = float(input("Interval between flashes (can be decimal): "))
-  c = float(input("Duration of flashes (can be decimal): "))
-  
+def flash(a,b):  
   while True:
     GPIO.setmode(GPIO.BCM)
     GPIO.setwarnings(False)
@@ -20,8 +15,8 @@ while True:
     GPIO.output(18,GPIO.LOW)
     Buzzer.off()
     time.sleep(b)
-    x = x+1
-    if x == a:
-      break
-     else:
-      continue
+
+while True:
+  b = float(0.5)
+  c = float(0.5)
+  main(a,b)
