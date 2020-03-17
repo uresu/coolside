@@ -1,0 +1,27 @@
+Given that game has not started
+When the box is open
+Then the game starts 
+
+Given that the box is open
+When the game starts
+Then spin the compass and blink the light
+
+Given that the compass is spinning and light is blinking 
+When the compass is removed
+Then stop the blinking lights and spinning
+
+Given that the compass has been removed
+When the blinking lights and spinning have stopped
+Then fix bearing
+
+Given that the bearing is fixed
+When the player starts moving 
+Then indicate towards waypoint
+
+Given that player is moving towards waypoint
+When player gets closer
+Then beep faster
+
+Given that the player is moving away from waypoint
+When player gets further away
+Then beep slower
